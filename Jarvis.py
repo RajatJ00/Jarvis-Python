@@ -134,7 +134,7 @@ if __name__ == '__main__':
 		elif 'play music' in query or "play song" in query:
 			speak("Here you go with music")
 			# music_dir = "G:\\Song"
-			music_dir = "C:\\Users\\GAURAV\\Music"
+			music_dir = "E:\RJ\Music"
 			songs = os.listdir(music_dir)
 			print(songs)
 			random = os.startfile(os.path.join(music_dir, songs[1]))
